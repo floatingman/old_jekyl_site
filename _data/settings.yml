@@ -1,0 +1,23 @@
+# Site settings
+title: Daniel Newman
+email: your-email@domain.com
+description: "Thinker // Creator // Programmer"
+baseurl: ""
+url: "http://yourdomain.com"
+
+## HEADER FOOTER ##
+
+logo: 'logo.svg'
+background-image: 'header_water.jpg'
+
+
+menu:
+  - {name: About Me, url: '#about-me'}
+  - {name: Work, url: '#work'}
+  - {name: Clients, url: '#clients'}
+  - {name: Contact, url: '#contact'}
+
+## ABOUT
+avatar: 'daniel_outdoors.jpg'
+
+blurb: <p><strong>Daniel specializes in creating things.</strong>  Most of the what he creates is interactive experiences, but he also molds artwork from different materials.  Be it with wood or with music, he utilizes different mediums to express his imagination.  He brings this creativity to everything he works on.</p>
