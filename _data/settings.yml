@@ -6,7 +6,7 @@ description: "Thinker // Creator // Programmer"
 email: dan@danlovesprogramming.com
 
 
-# NOTE: The Logo and Background image are defined in the all.sass document.
+# NOTE: The Logo and Background image are defined in the all.sass documents.
 
 menu:
 - {name: About Me, url: '#about-me'}
