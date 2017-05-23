@@ -1,23 +1,54 @@
-# Site settings
+#-------------------------------
+# General Site Settings
+
 title: Daniel Newman
-email: your-email@domain.com
 description: "Thinker // Creator // Programmer"
-baseurl: ""
-url: "http://yourdomain.com"
+email: dan@danlovesprogramming.com
 
-## HEADER FOOTER ##
 
-logo: 'logo.svg'
-background-image: 'header_water.jpg'
-
+# NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-  - {name: About Me, url: '#about-me'}
-  - {name: Work, url: '#work'}
-  - {name: Clients, url: '#clients'}
-  - {name: Contact, url: '#contact'}
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
 
-## ABOUT
-avatar: 'daniel_outdoors.jpg'
+#-------------------------------
+# SEO Section
 
-blurb: <p><strong>Daniel specializes in creating things.</strong>  Most of the what he creates is interactive experiences, but he also molds artwork from different materials.  Be it with wood or with music, he utilizes different mediums to express his imagination.  He brings this creativity to everything he works on.</p>
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'All about that base 2'
+  rel-author: 'https://plus.google.com/u/0/+DanielNewman78/'
+  rel-publisher: 'https://plus.google.com/u/0/+DanielNewman78//'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Daniel specializes in creating things.**  Whether he creates comfort by building systems to ensure stability in a constantly changing world or creating music that brings peace in increasingly chaotic times, his imagination is the driving force behind his endless journey.
+
+  #-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/floatingman'}
+- {icon: 'youtube', link: 'http://youtube.com/c/DanielNewman78'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/danielnewman/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
