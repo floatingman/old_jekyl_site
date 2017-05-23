@@ -3,27 +3,39 @@
 
 <!DOCTYPE html>
 <html class="">
-<head>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <meta name="viewport" conten="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.data.settings.seo.description }}">
+    <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+    <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+    
+    <title>{{ site.data.settings.title }}</title>
 
-  <title></title>
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+    {% include analytics.html %}
+  </head>
+  <body>
 
-  <link rel="stylesheet" href="assets/css/all.css">
-  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    {% include header.html %}
 
-</head>
-<body>
+    {% include about.html %}
 
-  {% include header.html %}
+    {% include work.html %}
 
-  {% include about.html %}
+    {% include clients.html %}
 
-  {% include footer.html %}
+    {% include contact.html %}
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="assets/js/functions.js"></script>
-  <!-- REMBER TO ADD ANALYTICS! -->
-</body>
+    {% include form.html %}
+    
+
+    {% include footer.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ site.github.url }}/assets/js/functions.js"></script> 
+  </body>
 </html>
